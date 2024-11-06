@@ -1,3 +1,21 @@
+/*
+----------------------------------------------------------------------------
+ALGORITHM
+
+Step  1: Start
+Step  2: Declare 2 integer arrays arr1[], arr2[] of size 50 and another integer array mergedarray[] of size 100, 
+         variables i, j, k, size1 and size2 of integer type. 
+Step  3: Get the size and elements in sorted order for both the arrays.
+Step  4: set i, j, k as 0.
+Step  5: while i is less than size1 and j is less than size2, do the following
+step  6: check if arr1[i] is less than  arr2. If yes add arr1[i] to mergedarray[k],increment i by 1.
+         Else, add arr2[j] to mergedarray[k] and increment j by 1.
+         Increment k by 1.
+Step  7: Copy remaining elements (if any) of both arr1[] and arr2[] to mergedarray[].
+Step  8: Display  mergedarray as resultant array.
+Step  9: Stop
+----------------------------------------------------------------------------*/
+
 #include <stdio.h>
 
 int main() {
