@@ -14,6 +14,7 @@ Step  9: If any other choice print 'Invalid Choice' as error message.
 Step  10: Stop
 
 push()
+
 Step  1: Start
 Step  2: If top is less than or equal to size - 1, print stack is overflow.
          Else, get the element from the user to the value, increment top by 1, 
@@ -21,12 +22,14 @@ Step  2: If top is less than or equal to size - 1, print stack is overflow.
 Step  3: Stop
 
 display()
+
 Step  1: Start
 Step  2: If top is less than 0, print stack is empty.
          Else, print elements from top of the stack to element at index 0.
 Step  3: Stop
 
 pop()
+
 Step  1: Start
 Step  2: If top is less than 0, print stack is underflow.
          Else, delete element from top of the stack, decrement top by 1 and print element is popped.
