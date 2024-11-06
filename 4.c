@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int i, j, k, arr1[100], arr2[100], mergedarray[200], size1, size2;
+    int i, j, k, arr1[50], arr2[50], mergedarray[100], size1, size2;
 
     printf("Merge and sort\n");
 
