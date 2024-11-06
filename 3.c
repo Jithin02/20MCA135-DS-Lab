@@ -1,5 +1,24 @@
 //Binary search
+/*------------------------------------------------------------------
+ALGORITHM
 
+Step  1: Start
+Step  2: Get the size and elements of the array from user
+Step  3: Sort the array using any sorting method
+Step  4: Display the sorted array
+Step  5: Get the element to be searched from the user
+        and store it an a variable value
+step  6: Find the middle element of the array and check it is equal to value.
+        If yes, print element is found, go to step 10.
+Step  7: If the value is greater than middle element,
+        search for the element in array from element next to middle to the end of the array.
+        If found, print element is found, go to step 10.
+Step  8: If the value is less than middle element,
+        search for the element in array from starting to the element previous to middle element.
+        If found, print element is found, go to step 10.
+Step  9: Print Element is not found.
+Step 10: Stop
+-------------------------------------------------------------------*/
 #include <stdio.h>
 void main(){
 
