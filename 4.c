@@ -1,4 +1,10 @@
 /*
+Merge Two Arrays
+
+AIM 
+
+Write a C program to merge two arrays and sort the new array.
+
 ----------------------------------------------------------------------------
 ALGORITHM
 
@@ -78,3 +84,28 @@ int main() {
 
     return 0;
 }
+
+/*-------------------------------------------------------------------------------------------------------------------------------
+
+OUTPUT
+
+Merge and sort
+Enter the size of first array: 4
+Enter the elements of the first array (in sorted order) :
+1
+3
+5
+7
+Enter the size of second array: 3
+Enter the elements of the second array (in sorted order) :
+2
+4
+6
+Merged and sorted array:
+1  2  3  4  5  6  7  
+
+RESULT
+
+Program executed successfully and output is verified.
+
+------------------------------------------------------------------------------------------------------------------------------------*/
