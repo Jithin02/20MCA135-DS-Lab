@@ -1,4 +1,10 @@
-/*----------------------------------------------------------------------------
+/* Queue using array
+
+AIM
+
+Write a C program to perform queue operations using array.
+
+----------------------------------------------------------------------------
 ALGORITHM
 
 Step  1: Start
@@ -7,12 +13,12 @@ Step  3: In main function, declare variable choice of integer type.
 Step  4: Display menu options 1 for insertion, 2 for deletion, 3 for display queue and 4 to exit from the program.
 Step  5: Loop the options  until user chooses to exit.
 Step  6: Ask the user to enter the choice for above options.
-step  7: Call insert(), delete(), display()functions for options 1, 2, 3 respectively.
+step  7: Call enqueue(), dequeue(), display()functions for options 1, 2, 3 respectively.
 Step  8: If the choice is 4, exit the program.
 Step  9: If any other choice print 'Invalid Choice' as error message.
 Step  10: Stop
 
-insert()
+enqueue()
 Step  1: Start
 Step  2: If rear is greater than or equal to size - 1, print Queue is full.
          Else, get the element from the user to the value.
@@ -20,7 +26,7 @@ Step  3: check if front is equal to -1. If yes, set front as 0.
 Step  4: increment rear, add element to queue[rear] 
 Step  5: Stop
 
-delete()
+dequeue()
 Step  1: Start
 Step  2: If front is equal to -1 or front greater than rear, Queue is empty.
 		 Else, delete queue[front], increment front by 1.
@@ -37,8 +43,8 @@ Step  3: Stop
 #include <stdlib.h>
 #define size 5
 int front=-1,rear=-1,item,queue[size];
-void insert();
-void insert(){
+void enqueue();
+void enqueue(){
 	if(rear>=size-1){
 		printf("Queue is full\n");
 	}
@@ -56,8 +62,8 @@ void insert(){
 
 }
 
-void delete();
-void delete(){
+void dequeue();
+void dequeue(){
 	if((front==-1)||(front>rear)){
 	printf("Queue is empty\n");
 	}
@@ -90,10 +96,10 @@ void main(){
 		scanf("%d",&choice);
 		switch(choice){
 			case 1:
-				insert();
+				enqueue();
 				break;
 			case 2:
-				delete();
+				dequeue();
 				break;
 			case 3:
 				display();
@@ -109,3 +115,40 @@ void main(){
 	}
 	
 }
+/*-------------------------------------------------------------------------------------------------------------------------------
+
+OUTPUT
+
+Menu
+1 for insertion
+2 for deletion
+3 for display
+4 to exit
+Enter your choice: 1
+Enter the element:1
+Enter your choice: 1
+Enter the element:2
+Enter your choice: 1
+Enter the element:3
+Enter your choice: 3
+1
+2
+3
+Enter your choice: 2
+1 is deleted
+Enter your choice: 2
+2 is deleted
+Enter your choice: 2
+3 is deleted
+Enter your choice: 2
+Queue is empty
+Enter your choice: 3
+Queue is empty
+Enter your choice: 4
+Exiting....
+
+RESULT
+
+Program executed successfully and output is verified.
+
+------------------------------------------------------------------------------------------------------------------------------------*/
