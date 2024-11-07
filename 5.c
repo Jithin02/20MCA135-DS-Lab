@@ -1,4 +1,9 @@
-/*
+/* Stack using array
+
+AIM
+
+Write a c program to perform stack operations using array.
+
 ------------------------------------------------------------------------------------
 ALGORITHM
 
@@ -104,3 +109,46 @@ int stack[5],size=5,top=-1,i,value;
 		}while(ch!=4);
 	}
 
+/*-------------------------------------------------------------------------------------------------------------------------------
+
+OUTPUT
+
+1. Push Operation
+2. Display
+3. Pop Operation
+4. Exit
+Enter your Choice: 1
+Enter the element
+1
+Element at top of the stack is 1
+Enter your Choice: 1
+Enter the element
+2
+Element at top of the stack is 2
+Enter your Choice: 1
+Enter the element
+3
+Element at top of the stack is 3
+Enter your Choice: 2
+Elements in the stack are
+3
+2
+1
+Enter your Choice: 3
+3 is popped
+Enter your Choice: 3
+2 is popped
+Enter your Choice: 3
+1 is popped
+Enter your Choice: 3
+Stack Underflow
+Enter your Choice: 2
+Stack is Empty
+Enter your Choice: 4
+Exiting....
+
+RESULT
+
+Program executed successfully and output is verified.
+
+------------------------------------------------------------------------------------------------------------------------------------*/
