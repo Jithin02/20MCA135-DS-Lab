@@ -1,6 +1,11 @@
 
 /*
 Linear Search
+
+AIM
+
+Write a c program to implement Linear Search.
+
 -----------------------------------------------------------------------------
 ALGORITHM
 
@@ -41,3 +46,19 @@ void main(){
 		printf("The number %d is not present",num);
 	}
 }
+/*-------------------------------------------------------------------------------------------------------------------------------
+
+OUTPUT
+
+Enter the size of the array (max 50): 5
+Enter the elements: 20 76 21 90 45
+Array of size 5 is:
+20 76 21 90 45 
+Enter a number to search: 21
+The number 21 is present at the index 2
+
+RESULT
+
+Program executed successfully and output is verified.
+
+------------------------------------------------------------------------------------------------------------------------------------*/
