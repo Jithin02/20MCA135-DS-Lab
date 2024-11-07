@@ -1,6 +1,10 @@
 
 /*
 Binary Search
+
+AIM
+Write a C program to implement binary search
+
 ------------------------------------------------------------------
 ALGORITHM
 
@@ -79,3 +83,22 @@ void main(){
 		printf("Element is not found\n");
 	}
 }
+/*-------------------------------------------------------------------------------------------------------------------------------
+
+OUTPUT
+
+Enter the size of the array: 5
+Enter the elements: 2
+7
+9
+4
+8
+2  4  7  8  9  
+Enter the element to be searched: 4
+Element 4 is found at position 2
+
+RESULT
+
+Program executed successfully and output is verified.
+
+------------------------------------------------------------------------------------------------------------------------------------*/
