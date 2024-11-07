@@ -1,5 +1,10 @@
 /* 
 Mathematical Operations Using Functions
+
+AIM 
+
+Write a C program to display mathematical operations using functions
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ALGORITHM
 
@@ -138,4 +143,29 @@ void main(){
 	}while(choice!=5);
 	
 }
+/*-------------------------------------------------------------------------------------------------------------------------------
 
+OUTPUT
+
+Menu
+1 To perform Addition
+2 To perform Subtraction
+3 To perform Multiplication
+4 To perform Division
+5 To exit from the program
+Enter your choice: 4
+Enter two numbers:
+6 4
+Result is 1.500
+Enter your choice: 4
+Enter two numbers:
+5
+0
+Divison by zero is not possible
+Enter your choice: 5
+Exiting ! ! !
+
+RESULT
+
+Program executed successfully and output is verified.
+---------------------------------------------------------------------------------------------------------------------------------*/
