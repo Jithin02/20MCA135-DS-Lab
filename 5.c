@@ -21,7 +21,7 @@ Step  10: Stop
 push()
 
 Step  1: Start
-Step  2: If top is less than or equal to size - 1, print stack is overflow.
+Step  2: If top is greater than or equal to size - 1, print stack is overflow.
          Else, get the element from the user to the value, increment top by 1, 
          assign value to top of the stack and print element at top of the stack.
 Step  3: Stop
@@ -36,7 +36,7 @@ Step  3: Stop
 pop()
 
 Step  1: Start
-Step  2: If top is greater than 0, print stack is underflow.
+Step  2: If top is less than 0, print stack is underflow.
          Else, delete element from top of the stack, decrement top by 1 and print element is popped.
 Step  3: Stop
 ------------------------------------------------------------------------------------*/
