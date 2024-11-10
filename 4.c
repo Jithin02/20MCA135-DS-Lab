@@ -24,10 +24,10 @@ Step  9: Stop
 
 #include <stdio.h>
 
-int main() {
+void main() {
     int i, j, k, arr1[50], arr2[50], mergedarray[100], size1, size2;
 
-    printf("Merge and sort\n");
+    //printf("Merge and sort\n");
 
     // Input for first array
     printf("Enter the size of first array: ");
@@ -82,7 +82,6 @@ int main() {
     }
     printf("\n");
 
-    return 0;
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------
