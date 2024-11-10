@@ -36,7 +36,7 @@ Step  3: Stop
 pop()
 
 Step  1: Start
-Step  2: If top is less than 0, print stack is underflow.
+Step  2: If top is greater than 0, print stack is underflow.
          Else, delete element from top of the stack, decrement top by 1 and print element is popped.
 Step  3: Stop
 ------------------------------------------------------------------------------------*/
