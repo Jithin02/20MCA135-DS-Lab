@@ -40,7 +40,6 @@ Step  2: If front is equal to -1, print Queue is empty.
 Step  3: Stop
 ------------------------------------------------------------------------------ */
 #include <stdio.h>
-#include <stdlib.h>
 #define size 5
 int front=-1,rear=-1,item,queue[size];
 void enqueue();
@@ -91,7 +90,7 @@ void display(){
 void main(){
 	int choice;
 	printf("Menu\n1 for insertion\n2 for deletion\n3 for display\n4 to exit\n");
-	while(choice){
+	while(choice!=4){
 		printf("Enter your choice: ");
 		scanf("%d",&choice);
 		switch(choice){
@@ -106,7 +105,6 @@ void main(){
 				break;
 			case 4:
                 printf("Exiting....\n");
-				exit(0);
 				break;
 			default:
 				printf("Invalid Choice\n");
